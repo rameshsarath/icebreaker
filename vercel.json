@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "pages/api/process.ts": {
+      "maxDuration": 300
+    },
+    "pages/api/download.ts": {
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "RAPIDAPI_KEY": "@rapidapi_key"
+  }
+}
